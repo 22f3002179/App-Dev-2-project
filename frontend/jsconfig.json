@@ -1,0 +1,19 @@
+/*{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}*/
+{
+  "compilerOptions": {
+    "baseUrl": ".",  // Set the base directory to the root of the project
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "lib": ["es2015", "dom"]  // Include the ECMAScript 2015 and DOM libraries
+  },
+  "exclude": ["node_modules", "dist"]
+}
+
